@@ -43,23 +43,23 @@ const Dashboard = () => {
     <div className="dashboard-container">
       <h1 className="text-center py-4">Dashboard</h1>
       <Row>
-      <Col span={11}>
-      {/* Line Chart */}
-      <div className="chart-container">
-        <h2>Line Chart</h2>
-        <Line {...lineConfig} />
-      </div>
-      </Col>
-      <Col span={11} offset={2}>
-      {/* Pie Chart */}
-      <div className="chart-container">
-        <h2>Pie Chart</h2>
-        <Pie {...pieConfig} />
-      </div>
-        
-      </Col>
-    </Row>
-      
+        <Col span={11}>
+          {/* Line Chart */}
+          <div className="chart-container">
+            <h2>Line Chart</h2>
+            <Line {...lineConfig} />
+          </div>
+        </Col>
+        <Col span={11} offset={2}>
+          {/* Pie Chart */}
+          <div className="chart-container">
+            <h2>Pie Chart</h2>
+            <Pie {...pieConfig} />
+          </div>
+
+        </Col>
+      </Row>
+
     </div>
   );
 };
